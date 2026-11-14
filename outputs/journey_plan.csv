@@ -1,0 +1,6 @@
+sequence,city,station,station_id,arrival_litres,buy_litres,departure_litres,price_inr_litre,cost_inr,next_city,next_station_id,leg_km,leg_model_litres,next_fuel_litres
+1,Delhi,Delhi,SOURCE,10.0,0.0,10.0,,0.0,Karol Bagh,000e4539f1911d05,3.274,0.5,9.5
+2,Karol Bagh,LINK ROAD PETROL S.STN. BHARAT PETROLEUM DEALERS,000e4539f1911d05,9.5,40.5,50.0,102.12,4135.86,Gurugram,ecdd3ff61ab2e215,28.399,2.0,48.0
+3,Gurugram,PARAS PETROLEUM BHARAT PETROLEUM DEALERS,ecdd3ff61ab2e215,48.0,2.0,50.0,103,206.0,Jaipur,7604393a766c804e,207.749,14.0,36.0
+4,Jaipur,BALAJI PETROLEUM BANIPARK BHARAT PETROLEUM DEALERS,7604393a766c804e,36.0,13.5,49.5,112.69,1521.32,Bilimora,43a259a7941f8f6b,741.89,49.5,0.0
+5,Bilimora,BAPUJI PETROLEUM BHARAT PETROLEUM DEALERS,43a259a7941f8f6b,0.0,18.0,18.0,102.19,1839.42,Mumbai,DESTINATION,189.444,13.0,5.0

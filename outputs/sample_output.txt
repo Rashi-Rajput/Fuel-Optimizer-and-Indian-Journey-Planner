@@ -1,0 +1,23 @@
+
+YOUR JOURNEY: Delhi -> Mumbai
+300 Indian station records; 51 within your corridor.
+Price snapshot dates: 2026-10-19 to 2026-10-19 (not live prices).
+Distances are straight-line estimates, NOT road routes. Check an actual road map before travel.
+Shortest feasible path: Delhi (start) -> New Delhi (pump) -> Kota (pump) -> Mumbai (pump) -> Mumbai (end)
+Fuel-cost path: Delhi -> Karol Bagh -> Gurugram -> Jaipur -> Bilimora -> Mumbai
+Shortest estimate: 1154.2 km | Fuel-plan estimate: 1170.8 km
+
+City / station                          Arrive L  Buy L  Leave L   INR/L   Cost INR
+Delhi / Delhi                               10.0    0.0     10.0      --       0.00
+Karol Bagh / LINK ROAD PETROL S.STN. BH      9.5   40.5     50.0  102.12    4135.86
+Gurugram / PARAS PETROLEUM BHARAT PETRO     48.0    2.0     50.0  103.00     206.00
+Jaipur / BALAJI PETROLEUM BANIPARK BHAR     36.0   13.5     49.5  112.69    1521.32
+Bilimora / BAPUJI PETROLEUM BHARAT PETR      0.0   18.0     18.0  102.19    1839.42
+Forward optimum: INR 7702.60 | Backward optimum: INR 7702.60
+Just-enough buying on shortest path: INR 8059.82
+Optimal buying on shortest path: INR 7832.80
+Savings against just-enough baseline: INR 357.22
+Purchased: 74.0 L | Arrival fuel: 5.0 L
+Initial fuel is already owned; its value is excluded from every comparison.
+Leg fuel rounds up to 0.5 L; the optimum applies to this discretized corridor model.
+Saved full DP tables, 300-row fuel_plan.csv, journey_plan.csv and shortest_path_graph.png in C:\Users\Dell\Desktop\OOPSIE\opti\fuel_optimise_simple\outputs
